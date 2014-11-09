@@ -7,14 +7,19 @@ then changed to make it work with mongodb and redis in a local ubuntu box.
 
 ## Usage
 ( mongodb version 2.4.6 )
-### mkdir /data/mongo
-### service mongodb start  (if installed as service) or  mongod --dbpath=/data/mongo
-### /.../redis-stable/src/sudo service redis-server start  or ./redis-server
-### node main.js
+### mongodb setup
+    mkdir /data/mongo
+    service mongodb start  (if installed as service) or  mongod --dbpath=/data/mongo
+### redis setup
+   /.../redis-stable/src/sudo service redis-server start  or ./redis-server
+### start mongodb 
+   node main.js
 
-#### if you want to run any command in background, then run as - nohup <command> &
+#### run mongodb in background
+   if you want to run any command in background, then run as - nohup <command> &
 
-#### Access the application :  http://localhost:3000/
+#### Access the application
+   http://localhost:3000/
 
 ## Developing
 

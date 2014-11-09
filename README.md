@@ -1,4 +1,4 @@
-# testApp
+# Real-time Analytics
 
 ## Objective
 
@@ -12,7 +12,7 @@ then changed to make it work with mongodb and redis in a local ubuntu box.
     service mongodb start  (if installed as service) or  mongod --dbpath=/data/mongo
 ### redis setup
    /.../redis-stable/src/sudo service redis-server start  or ./redis-server
-### start mongodb 
+### start Nodejs Application 
    node main.js
 
 #### run mongodb in background
